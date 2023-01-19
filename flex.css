@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+    padding-top: 10px;
+    transition: 1s;
+    text-decoration: none;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    margin: 10px 15px;
+}
+
+.back:hover {
+    background-color: aqua;
+    transition: 2s;
+    border-radius: 20px;
+}
+
+.el-1 {
+    background-color: blue;
+}
+
+.el-2 {
+    background-color: pink;
+}
+
+.el-3 {
+    background-color: red;
+    height: 200px;
+}
+
+.el-4 {
+    background-color: gold;
+}
+
+.el-5 {
+    background-color: chartreuse;
+}
+
+.el-6 {
+    background-color: green;
+}
+
+.el-7 {
+    background-color: turquoise;
+}
+
+.el-8 {
+    background-color: olive;
+}
+
+.container {
+    font-family: sans-serif;
+    background-color: aqua;
+    font-size: 35px;
+    margin: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.el {
+    /*flex-basis: 200px;*/
+    /*flex-shrink: 0;*/
+    /*flex-grow: 1;*/
+    /*flex: 0 0 200px;*/
+    flex: 1;
+}
+
+.el-1 {
+    align-self: flex-start;
+
+    /*order: 1;*/
+}
+
+.el-5 {
+    align-self: stretch;
+
+    /*order: 2;*/
+}
